@@ -1,0 +1,176 @@
+2019-06-06 16:09:22.451  INFO 4519 --- [main] c.e.App                                  : Starting App on jiahaobees-MacBook-Pro.local with PID 4519 (started by bee in /Users/bee/Downloads/20.springboot/01-2019.03.07-第一节课/springbootvip)
+2019-06-06 16:09:22.477  INFO 4519 --- [main] c.e.App                                  : No active profile set, falling back to default profiles: default
+2019-06-06 16:09:23.649  INFO 4519 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e199fc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-06 16:09:24.148  INFO 4519 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-06 16:09:24.170  INFO 4519 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-06 16:09:24.170  INFO 4519 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-06-06 16:09:24.180  INFO 4519 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-06 16:09:24.271  INFO 4519 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-06 16:09:24.271  INFO 4519 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1751 ms
+2019-06-06 16:09:25.065  INFO 4519 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-06 16:09:25.276  INFO 4519 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-06 16:09:25.711  INFO 4519 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-06 16:09:25.738  INFO 4519 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-06 16:09:25.783  INFO 4519 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-06 16:09:25.896  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.899  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.901  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.903  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.906  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.908  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.910  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.912  WARN 4519 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:09:25.964  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingGET_1
+2019-06-06 16:09:25.965  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingHEAD_1
+2019-06-06 16:09:25.966  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPOST_1
+2019-06-06 16:09:25.967  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPUT_1
+2019-06-06 16:09:25.968  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPATCH_1
+2019-06-06 16:09:25.969  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingDELETE_1
+2019-06-06 16:09:25.971  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingOPTIONS_1
+2019-06-06 16:09:25.972  INFO 4519 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingTRACE_1
+2019-06-06 16:09:26.039  INFO 4519 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-06 16:09:26.045  INFO 4519 --- [main] c.e.App                                  : Started App in 3.953 seconds (JVM running for 4.715)
+2019-06-06 16:09:31.107  INFO 4519 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-06 16:09:31.107  INFO 4519 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-06-06 16:09:31.116  INFO 4519 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 9 ms
+2019-06-06 16:09:31.204  INFO 4519 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : URL : http://localhost:8080/404.do
+2019-06-06 16:09:31.204  INFO 4519 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : HTTP_METHOD : GET
+2019-06-06 16:09:31.205  INFO 4519 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : IP : 0:0:0:0:0:0:0:1
+2019-06-06 16:09:31.210  INFO 4519 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : RESPONSE : 你要找的页面，被lison偷吃了！
+2019-06-06 16:09:55.595  INFO 4519 --- [http-nio-8080-exec-1] c.e.u.WebLogAspect                       : URL : http://localhost:8080/404.do
+2019-06-06 16:09:55.595  INFO 4519 --- [http-nio-8080-exec-1] c.e.u.WebLogAspect                       : HTTP_METHOD : GET
+2019-06-06 16:09:55.595  INFO 4519 --- [http-nio-8080-exec-1] c.e.u.WebLogAspect                       : IP : 0:0:0:0:0:0:0:1
+2019-06-06 16:09:55.595  INFO 4519 --- [http-nio-8080-exec-1] c.e.u.WebLogAspect                       : RESPONSE : 你要找的页面，被lison偷吃了！
+2019-06-06 16:10:38.585  INFO 4519 --- [http-nio-8080-exec-4] c.e.u.WebLogAspect                       : URL : http://localhost:8080/batchAdd
+2019-06-06 16:10:38.586  INFO 4519 --- [http-nio-8080-exec-4] c.e.u.WebLogAspect                       : HTTP_METHOD : DELETE
+2019-06-06 16:10:38.586  INFO 4519 --- [http-nio-8080-exec-4] c.e.u.WebLogAspect                       : IP : 0:0:0:0:0:0:0:1
+2019-06-06 16:10:38.596  INFO 4519 --- [http-nio-8080-exec-4] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-06-06 16:10:38.601  WARN 4519 --- [http-nio-8080-exec-4] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-06-06 16:10:38.726  INFO 4519 --- [http-nio-8080-exec-4] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-06-06 16:11:32.183  INFO 4519 --- [Thread-3] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-06 16:11:32.186  INFO 4519 --- [Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-06-06 16:11:32.193  INFO 4519 --- [Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-06-06 16:11:55.650  INFO 4545 --- [main] c.e.App                                  : Starting App on jiahaobees-MacBook-Pro.local with PID 4545 (started by bee in /Users/bee/Downloads/20.springboot/01-2019.03.07-第一节课/springbootvip)
+2019-06-06 16:11:55.658  INFO 4545 --- [main] c.e.App                                  : No active profile set, falling back to default profiles: default
+2019-06-06 16:11:56.650  INFO 4545 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a09b92d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-06 16:11:57.095  INFO 4545 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-06 16:11:57.116  INFO 4545 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-06 16:11:57.117  INFO 4545 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-06-06 16:11:57.125  INFO 4545 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-06 16:11:57.216  INFO 4545 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-06 16:11:57.217  INFO 4545 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1501 ms
+2019-06-06 16:11:58.044  INFO 4545 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-06 16:11:58.244  INFO 4545 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-06 16:11:58.620  INFO 4545 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-06 16:11:58.640  INFO 4545 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-06 16:11:58.672  INFO 4545 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-06 16:11:58.773  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.776  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.778  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.780  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.782  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.785  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.787  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.789  WARN 4545 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-06 16:11:58.837  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingGET_1
+2019-06-06 16:11:58.840  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingHEAD_1
+2019-06-06 16:11:58.842  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPOST_1
+2019-06-06 16:11:58.843  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPUT_1
+2019-06-06 16:11:58.844  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPATCH_1
+2019-06-06 16:11:58.846  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingDELETE_1
+2019-06-06 16:11:58.847  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingOPTIONS_1
+2019-06-06 16:11:58.849  INFO 4545 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingTRACE_1
+2019-06-06 16:11:58.916  INFO 4545 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-06 16:11:58.920  INFO 4545 --- [main] c.e.App                                  : Started App in 3.708 seconds (JVM running for 4.259)
+2019-06-06 16:11:58.990  INFO 4545 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-06 16:11:58.990  INFO 4545 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-06-06 16:11:58.998  INFO 4545 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 7 ms
+2019-06-06 16:11:59.071  INFO 4545 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : URL : http://localhost:8080/404.do
+2019-06-06 16:11:59.071  INFO 4545 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : HTTP_METHOD : GET
+2019-06-06 16:11:59.072  INFO 4545 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : IP : 0:0:0:0:0:0:0:1
+2019-06-06 16:11:59.083  INFO 4545 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : RESPONSE : 你要找的页面，被lison偷吃了！
+2019-06-06 16:12:03.475  INFO 4545 --- [http-nio-8080-exec-9] c.e.u.WebLogAspect                       : URL : http://localhost:8080/404.do
+2019-06-06 16:12:03.475  INFO 4545 --- [http-nio-8080-exec-9] c.e.u.WebLogAspect                       : HTTP_METHOD : GET
+2019-06-06 16:12:03.475  INFO 4545 --- [http-nio-8080-exec-9] c.e.u.WebLogAspect                       : IP : 0:0:0:0:0:0:0:1
+2019-06-06 16:12:03.475  INFO 4545 --- [http-nio-8080-exec-9] c.e.u.WebLogAspect                       : RESPONSE : 你要找的页面，被lison偷吃了！
+2019-06-06 16:12:27.730  INFO 4545 --- [http-nio-8080-exec-3] c.e.u.WebLogAspect                       : URL : http://localhost:8080/swagger/%7Bid%7D
+2019-06-06 16:12:27.730  INFO 4545 --- [http-nio-8080-exec-3] c.e.u.WebLogAspect                       : HTTP_METHOD : GET
+2019-06-06 16:12:27.731  INFO 4545 --- [http-nio-8080-exec-3] c.e.u.WebLogAspect                       : IP : 0:0:0:0:0:0:0:1
+2019-06-06 16:12:27.734  INFO 4545 --- [http-nio-8080-exec-3] c.e.u.WebLogAspect                       : RESPONSE : {name=lison, age=38}
+2019-06-06 16:23:44.207  INFO 4545 --- [Thread-3] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-07 12:13:50.563  INFO 5847 --- [main] c.e.App                                  : Starting App on Pro.lan with PID 5847 (started by bee in /Users/bee/Downloads/20.springboot/01-2019.03.07-第一节课/springbootvip)
+2019-06-07 12:13:50.569  INFO 5847 --- [main] c.e.App                                  : No active profile set, falling back to default profiles: default
+2019-06-07 12:13:52.134  INFO 5847 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb47c933] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-07 12:13:52.938  INFO 5847 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-07 12:13:52.971  INFO 5847 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-07 12:13:52.974  INFO 5847 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-06-07 12:13:52.996  INFO 5847 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-07 12:13:53.228  INFO 5847 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-07 12:13:53.229  INFO 5847 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2616 ms
+2019-06-07 12:13:54.665  INFO 5847 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-07 12:13:54.963  INFO 5847 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-07 12:13:55.447  INFO 5847 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-07 12:13:55.478  INFO 5847 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-07 12:13:55.517  INFO 5847 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-07 12:13:55.648  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.651  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.655  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.657  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.662  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.673  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.676  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.679  WARN 5847 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-07 12:13:55.731  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingGET_1
+2019-06-07 12:13:55.732  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingHEAD_1
+2019-06-07 12:13:55.734  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPOST_1
+2019-06-07 12:13:55.735  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPUT_1
+2019-06-07 12:13:55.736  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPATCH_1
+2019-06-07 12:13:55.737  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingDELETE_1
+2019-06-07 12:13:55.739  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingOPTIONS_1
+2019-06-07 12:13:55.740  INFO 5847 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingTRACE_1
+2019-06-07 12:13:55.815  INFO 5847 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-07 12:13:55.821  INFO 5847 --- [main] c.e.App                                  : Started App in 5.917 seconds (JVM running for 6.732)
+2019-06-07 12:14:02.104  INFO 5847 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-07 12:14:02.104  INFO 5847 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-06-07 12:14:02.115  INFO 5847 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2019-06-07 12:14:02.247  INFO 5847 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : URL : http://localhost:8080/404.do
+2019-06-07 12:14:02.248  INFO 5847 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : HTTP_METHOD : GET
+2019-06-07 12:14:02.248  INFO 5847 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : IP : 0:0:0:0:0:0:0:1
+2019-06-07 12:14:02.255  INFO 5847 --- [http-nio-8080-exec-2] c.e.u.WebLogAspect                       : RESPONSE : 你要找的页面，被lison偷吃了！
+2019-06-07 12:14:35.414  INFO 5847 --- [Thread-3] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-09 14:07:31.540  INFO 956 --- [main] c.e.App                                  : Starting App on jiahaobees-MacBook-Pro.local with PID 956 (started by bee in /Users/bee/Downloads/20.springboot/01-2019.03.07-第一节课/springbootvip)
+2019-06-09 14:07:31.547  INFO 956 --- [main] c.e.App                                  : No active profile set, falling back to default profiles: default
+2019-06-09 14:07:32.453  INFO 956 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$652dfc6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-09 14:07:32.907  INFO 956 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2019-06-09 14:07:32.930  INFO 956 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-06-09 14:07:32.931  INFO 956 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-06-09 14:07:32.940  INFO 956 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-06-09 14:07:33.023  INFO 956 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-06-09 14:07:33.024  INFO 956 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1438 ms
+2019-06-09 14:07:33.798  INFO 956 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-09 14:07:33.971  INFO 956 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-09 14:07:34.321  INFO 956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-09 14:07:34.343  INFO 956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-09 14:07:34.378  INFO 956 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-09 14:07:34.484  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.486  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.488  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.490  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.492  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.494  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.495  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.497  WARN 956 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-09 14:07:34.527  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingGET_1
+2019-06-09 14:07:34.528  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingHEAD_1
+2019-06-09 14:07:34.529  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPOST_1
+2019-06-09 14:07:34.530  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPUT_1
+2019-06-09 14:07:34.530  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPATCH_1
+2019-06-09 14:07:34.531  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingDELETE_1
+2019-06-09 14:07:34.532  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingOPTIONS_1
+2019-06-09 14:07:34.533  INFO 956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingTRACE_1
+2019-06-09 14:07:34.594  INFO 956 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-09 14:07:34.600  INFO 956 --- [main] c.e.App                                  : Started App in 23.468 seconds (JVM running for 29.099)
+2019-06-09 14:07:39.216  INFO 956 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-09 14:07:39.217  INFO 956 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-06-09 14:07:39.225  INFO 956 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2019-06-09 14:10:21.974  INFO 956 --- [Thread-3] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
